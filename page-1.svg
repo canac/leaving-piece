@@ -1,0 +1,47 @@
+<svg viewBox="0 0 1650 1225" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="texas-rounded-rect">
+      <rect x="100" y="100" width="550" height="550" rx="50" ry="50" />
+    </clipPath>
+    <clipPath id="pic-1-rounded-rect">
+      <rect x="725" y="700" width="800" height="400" rx="50" ry="50" />
+    </clipPath>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+    </filter>
+  </defs>
+
+  <image x="1400" y="75" width="175" height="125" href="img/cru.png" />
+
+  <path d="M 625 300 h 950 l -100 100 l 100 100 h -950 z" fill-opacity="0.25" stroke="black" stroke-opacity="0.25"
+    stroke-width="10" stroke-linejoin="round" filter="url(#blur)" />
+  <path d="M 600 275 h 950 l -100 100 l 100 100 h -950 z" fill="#ffcf07" stroke="#ffcf07" stroke-width="10"
+    stroke-linejoin="round" />
+
+  <rect x="125" y="125" width="550" height="550" rx="50" ry="50" fill-opacity="0.25" filter="url(#blur)" />
+  <image x="100" y="100" width="550" height="550" href="img/texas.jpg" clip-path="url(#texas-rounded-rect)" />
+
+  <text y="350" font-family="Source Sans Pro" text-anchor="middle">
+    <tspan font-size="84" font-weight="600" x="1050">Caleb &amp; Amy Cox</tspan>
+    <tspan font-size="40" font-weight="300" x="1050" dy="60">Building spiritual movements among</tspan>
+    <tspan font-size="40" font-weight="300" x="1050" dy="50">high school students in Dallas, TX</tspan>
+  </text>
+
+  <rect x="750" y="715" width="800" height="400" rx="50" ry="50" fill-opacity="0.25" filter="url(#blur)" />
+  <image x="725" y="700" width="800" height="400" href="img/1.jpg" clip-path="url(#pic-1-rounded-rect)" />
+
+  <text x="400" y="750" font-family="Source Sans Pro" font-size="40" font-weight="600" text-anchor="middle">
+    Contact Us:
+  </text>
+  <line x1="225" y1="770" x2="575" y2="770" stroke="#ffcf07" stroke-width="5" />
+
+  <text y="820" font-family="Source Sans Pro" font-size="40" font-weight="300" text-anchor="middle">
+    <tspan x="400">C: (256) 258-9537</tspan>
+    <tspan x="400" dy="1.25em">caleb.cox@cru.org</tspan>
+    <tspan x="400" dy="2em">A: (260) 704-8753</tspan>
+    <tspan x="400" dy="1.25em">amy.cox@cru.org</tspan>
+    <tspan x="400" dy="2em">calebamycox.com</tspan>
+  </text>
+
+  <line x1="75" y1="1150" x2="1575" y2="1150" stroke="#ffcf07" stroke-width="5" />
+</svg>
