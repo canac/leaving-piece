@@ -11,7 +11,7 @@
     </filter>
   </defs>
 
-  <image x="1400" y="75" width="175" height="125" href="img/cru.png" />
+  <image x="1375" y="75" width="200" height="150" href="img/cru.png" />
 
   <path d="M 625 300 h 950 l -100 100 l 100 100 h -950 z" fill-opacity="0.25" stroke="black" stroke-opacity="0.25"
     stroke-width="10" stroke-linejoin="round" filter="url(#blur)" />
