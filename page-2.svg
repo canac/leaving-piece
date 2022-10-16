@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1650 1225" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="pic-2-rounded-rect">
+      <rect x="875" y="150" width="700" height="400" rx="50" ry="50" />
+    </clipPath>
+    <clipPath id="pic-3-rounded-rect">
+      <rect x="75" y="675" width="800" height="400" rx="50" ry="50" />
+    </clipPath>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+    </filter>
+  </defs>
+
+  <path d="M 155, 200 h -30 l 50, 200 h 30 m -55, -100 h 30" stroke="#ffcf07" stroke-width="5" fill="none" />
+  <text x="165" y="210" font-family="Source Sans Pro" font-size="32">
+    <tspan font-size="36" font-weight="600">Win</tspan> students to faith in Christ
+    <tspan x="190" dy="100" font-size="36" font-weight="600">Build</tspan> them up in their faith
+    <tspan x="215" dy="100" font-size="36" font-weight="600">Send</tspan> them out to reach others
+  </text>
+
+  <path fill="none" stroke="#2bc2dd" stroke-width="5" stroke-linecap="round" stroke-dasharray="15 15"
+    d="M 670 620 l -53 15 c -48 9 -98 -23 -98 -23 c -27 -9 -47 -33 -51 -62 c -2 -15 9 -28 24 -28 c 27 -1 46 27 35 52 l -6 14 c -11 25 -37 41 -64 38 l -107 -34 c -3 0 -13 -2 -21 -3 c -6 -1 -12 1 -18 4 l -68 40 c -23 3 -43 -15 -42 -38 c 1 -28 -19 -52 -46 -57 l -1 0 c -19 -3 -36 10 -37 29 c -2 21 19 37 40 30 c 0 0 57 -21 52 -69 c -4 -37 -60 -65 -84 -75" />
+  <path fill="none" stroke="#2bc2dd" stroke-width="15" stroke-linejoin="round"
+    d="M 725 600 l -35 10 l 5 -50 l -35 -30 l 165 -5 l -70 125 l -45 -75 l 115 -50" />
+
+  <rect x="900" y="175" width="700" height="400" rx="50" ry="50" fill-opacity="0.25" filter="url(#blur)" />
+  <image x="875" y="150" width="700" height="400" href="img/2.jpg" clip-path="url(#pic-2-rounded-rect)" />
+
+  <rect x="100" y="700" width="800" height="400" rx="50" ry="50" fill-opacity="0.25" filter="url(#blur)" />
+  <image x="75" y="675" width="800" height="400" href="img/3.jpg" clip-path="url(#pic-3-rounded-rect)" />
+
+  <text y="675" font-family="Source Sans Pro" font-size="40" font-weight="300" text-anchor="middle"
+    dominant-baseline="hanging">
+    <tspan x="1250">Your partnership can make a</tspan>
+    <tspan x="1250" dy="1.25em">difference in reaching students for</tspan>
+    <tspan x="1250" dy="1.25em">Christ. Would you partner with us in</tspan>
+    <tspan x="1250" dy="1.25em">prayer and financially at</tspan>
+    <tspan x="1250" dy="1.25em">$100/month or some other amount?</tspan>
+    <tspan x="1250" dy="2em" font-weight="600">give.cru.org/0864190</tspan>
+  </text>
+
+  <line x1="75" y1="1150" x2="1575" y2="1150" stroke="#ffcf07" stroke-width="5" />
+</svg>
